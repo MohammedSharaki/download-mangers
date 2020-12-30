@@ -26,10 +26,10 @@ class MainApp(QMainWindow , FROM_CLASS):
 
 
 
-def main():
+def main(): #to start app 
     app = QApplication(sys.argv)
-    window = MainApp()
-    window.show()
+    window = MainApp() 
+    window.show() #to show app
     app.exec_() #infent loop  
 
 if __name__ == '__main__':
